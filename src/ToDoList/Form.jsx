@@ -48,12 +48,10 @@ const Form = () => {
   };
 
   const handleDelete = (task) => {
-    console.log(task)
     setListAdd(listAdd.includes(task)
       ? listAdd.filter((item) => item !== task)
       : [...listAdd, task]);
   };
-  console.log(listAdd)
 
   const handleComplete = (id) => {
     setTodos(

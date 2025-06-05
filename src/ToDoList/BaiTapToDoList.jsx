@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "./Form";
 import Axios from "axios";
+import ToDoList from "./ToDoList";
 const BaiTapToDoList = () => {
   
   return (
@@ -68,8 +69,8 @@ const BaiTapToDoList = () => {
           </div>
         </div>
       </nav>
-
-      <Form />
+      <ToDoList/>
+      {/* <Form /> */}
     </div>
   );
 };
